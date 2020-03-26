@@ -12,7 +12,7 @@ n1 = int(input('Digite a primeira nota: '))
 n2 = int(input('Digite a segunda nota: '))
 med = (n1 + n2) / 2
 if med >= 6:
-    re = 'o aluno passou'
+    re = 'O aluno passou'
 else:
-    re = 'o aluno foi reprovado'
+    re = 'O aluno foi reprovado'
 print('A média foi: {}, {}'.format(med, re))
