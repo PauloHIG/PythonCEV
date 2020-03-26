@@ -15,4 +15,4 @@ if med >= 6:
     re = 'o aluno passou'
 else:
     re = 'o aluno foi reprovado'
-print('A media foi: {}, {}'.format(med, re))
+print('A média foi: {}, {}'.format(med, re))
