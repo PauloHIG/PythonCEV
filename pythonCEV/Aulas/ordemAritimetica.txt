@@ -1,5 +1,6 @@
-ordem de precedencia em python
-1º = ()
-2º = **
-3º = * / % //
-4º = + -
+ordem de precedÃªncia em python
+1Âº = ()
+2Âº = **
+3Âº = * / % //
+4Âº = + -
+Ã© sempre importante lembrar dessa ordem no uso de fÃ³rmulas matematicas no Python
