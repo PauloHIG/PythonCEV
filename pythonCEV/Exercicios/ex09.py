@@ -1,9 +1,10 @@
 #tabuada
 def tabuada(n):
-    print("\ntabuada do {}:".format(n))
-    for i in range(1, 11):
-        print('{} X {} = {}'.format(n, i, n * i))
+	print("-"*12) #pode se multiplicar strings
+	print("tabuada do ",n)
+	for i in range(1, 11):
+		print('{} X {:2} = {}'.format(n, i, n * i))#o {:2} cria um espaço de 2 dígitos para alinhar com os que só tem 1
+	print("-"*12)
 
-
-for i in range(1,11):
-    tabuada(i)
+ta=int(input('Digite o número para ver sua tabuada: '))
+tabuada(ta)
