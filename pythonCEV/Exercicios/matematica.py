@@ -11,9 +11,16 @@ def div(n1,n2):
 def divint(n1,n2):
     return n1 // n2 #divisao inteira, fiz de outra maneira em outro exercicio
 def modu(n1,n2):
-    return n1 % n2 #em python o resto da divisao se faz com o simbolo %
+    return n1 % n2 #resto da divisão
 def pot(n1,n2):
     return n1 ** n2 #potenciaçao
+'''
+ordem de precedencia em python
+1º = ()
+2º = **
+3º = * / % //
+4º = + -
+'''
 
 #raiz quadrada, cubica, e a de qualquer numero
 def raizq(n1):
@@ -28,10 +35,14 @@ def tabuada(n):
     print("\ntabuada do {} :".format(n))
     for i in range(1, 11):
         print('{} X {} = {}'.format(n, i, n * i))
+
 #Fatorial
 def fatorial(n):
     fac = 1
-    while n >0:
+    while n >1:
         fac = fac*n
         n = n-1
     return fac
+#hipotenusa de truangulo-retangulo
+def hipotenusa(ca,co):
+    return ((ca**2) + (co**2))**0.5
