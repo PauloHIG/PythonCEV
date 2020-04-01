@@ -1,3 +1,5 @@
 #calculo de desconto
-n1 = 100
-print('R$ {:.2f} com 5% de desconto e = R$ {:.2f} '.format(n1, (n1*0.95)))
+preco = float(input('Digite o preço do produto R$'))
+desc = 5
+precof = preco - (preco*desc/100)#calculo de porcentagem, multiplicação e divisão têm a mesma ordem de precedência, não é necessario usar parentesis na divisão como fiz anteriormente
+print('R${:.2f} com {}% de desconto é = R${:.2f}'.format(preco ,desc ,precof))
