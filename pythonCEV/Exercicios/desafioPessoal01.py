@@ -44,7 +44,6 @@ def divisão(n1,n2):
 	else:
 		print('Só use valores inteiros e o divisor só pode ser maior que 0')
 
-
 re = multiplicação(-12.34,10)
 print('multiplicação = {:.2f}'.format(re))
 
