@@ -1,7 +1,7 @@
 #Criar uma calculadora usando apenas soma
 #subtração é permitida, mas será usada como uma soma com um número negativo
 #ainda está ruim, mas já deu pra ter uma ideia do que divisão e multiplicação realmente são feitos
-#!!!MUITO RUIM!!!
+#!!!INCOMPLETO!!!
 def multiplicação(n1,n2):
 	if type(n2) is int: 
 		i=1
