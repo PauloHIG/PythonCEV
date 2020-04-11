@@ -1,6 +1,5 @@
 #Criar uma calculadora usando apenas soma
 #subtração é permitida, mas será usada como uma soma com um número negativo
-#ainda está ruim, mas já deu pra ter uma ideia do que divisão e multiplicação realmente são feitos
 #!!!INCOMPLETO!!!
 def multiplicação(n1,n2):
 	if type(n2) is int: 
@@ -18,7 +17,7 @@ def multiplicação(n1,n2):
 			nr=0
 		return nr
 	else:
-		print('O multiplicador só pode ser inteiro por enquanto')
+		print('O multiplicador só pode ser inteiro')
 
 def restDivisão(n1,n2):
 	cont=0
@@ -46,7 +45,6 @@ def divisão(n1,n2):
 
 re = multiplicação(-12.34,10)
 print('multiplicação = {:.2f}'.format(re))
-
 re = divisão(11,2)
 print("Divisão = ",re)
 re = restDivisão(11,2)
