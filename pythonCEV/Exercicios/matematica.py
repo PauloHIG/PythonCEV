@@ -43,6 +43,6 @@ def fatorial(n):
         fac = fac*n
         n = n-1
     return fac
-#hipotenusa de truangulo-retangulo
+#hipotenusa de triângulo-retangulo
 def hipotenusa(ca,co):
     return ((ca**2) + (co**2))**0.5

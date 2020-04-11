@@ -6,7 +6,7 @@
 1 centímetro (cm) = 0,01 metros
 1 milímetro (mm) = 0,001 metros
 
-1 decâmetro (dam) = 10 metros
+1 decâmetro (dam) = 10 metrosb
 1 hectômetro (hm) = 100 metros
 1 quilômetro (km) = 1000 metros
 '''
