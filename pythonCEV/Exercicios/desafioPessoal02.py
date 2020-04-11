@@ -161,11 +161,10 @@ pontO=0
 while True:
 	while msg==None:
 		exibir(tabuleiro)
+		insereJogada(tabuleiro,vez)
 		if vez == 'X':
-			insereJogada(tabuleiro,vez)
 			vez = 'O'
 		else:
-			insereJogada(tabuleiro,vez)
 			vez ='X'
 		msg=verTudo(tabuleiro)
 	exibir(tabuleiro)
