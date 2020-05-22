@@ -10,9 +10,9 @@ while True:
 		ano = int(input('Digite um ano(0 para o ano atual): '))
 	except:
 		print('Somente o ano, sem pontos, barras nem vírgulas')
-		continue#o continue faz com que o try seja executado quantas vezes for necessário
+		continue#o continue faz com que o try seja executado quantas vezes for necessário desde que esteja dentro de um loop infinito
 	break
-if ano ==0:
+if ano == 0:
 	ano = date.today().year
 if ano%4 == 0 and ano % 100 != 0 or ano % 400 == 0:
 	print('{} é um ano é bissexto'.format(ano))
