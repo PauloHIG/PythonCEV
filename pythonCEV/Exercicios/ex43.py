@@ -23,7 +23,7 @@ while True:
 	break
 		
 IMC = peso/(altura**2)
-print(IMC)
+print('Seu IMC é:{:.2f}'.format(IMC))
 if IMC <18.5:
 	print('Está abaixo do peso')
 elif IMC < 25:
