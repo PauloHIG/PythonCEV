@@ -1,3 +1,4 @@
+#exercício para usar o contador do time, o sleep pode ser bem útil mais tarde
 import time
 t = 10
 while t:
