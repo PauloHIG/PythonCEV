@@ -13,7 +13,7 @@ while True:
 			continue
 		break
 		
-	if tot ==1:
+	if tot == 1:#foi a única coisa que eu pensei para o menor número necessariamente receber o primeiro número digitado pelo usuário
 		menor = n
 	somatot+=n
 	
