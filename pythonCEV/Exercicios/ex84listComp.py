@@ -31,9 +31,13 @@ while True:
 
 print(f'A quantidade de pessoas cadastradas foi {len(pessoas)}')
 mais = pessoas [0][1]
+menos = pessoas [0][1]
 for pessoa in pessoas:
 	if mais < pessoa[1]:#pessoa[1] é o peso e sempre vai ser
 		mais = pessoa[1]
+	if menos > pessoa[1]:#só inverti esse sinal
+		menos = pessoa[1]
+
 print(f'O maior peso é {mais} e pessoas mais pesadas são:',end='')
 i=1
 for pessoa in pessoas:
@@ -44,17 +48,11 @@ for pessoa in pessoas:
 		else:
 			print('.',end='\n')
 	i+=1
-
 #aqui tudo se repete com uma pequena diferença
-mais = pessoas [0][1]
-for pessoa in pessoas:
-	if mais > pessoa[1]:#só inverti esse sinal
-		mais = pessoa[1]
-print(f'O menor peso é {mais} e pessoas mais leves são:',end=' ')
-
+print(f'O menor peso é {menos} e pessoas mais leves são:',end=' ')
 i=1
 for pessoa in pessoas:
-	if pessoa[1] == mais:
+	if pessoa[1] == menos:
 		print(pessoa[0],end='')
 		if i < len(pessoas)-1:
 			print(', ',end='')
