@@ -35,7 +35,10 @@ while True:
 	i+=1
 for aluno in lista:
 	print(f'No. {lista.index(aluno)} Nome: {aluno[0]} Média {mean(aluno[1])}')
-indice = int(input('Quer ver as notas de qual aluno?: '))
-
-print(f'Nome: {lista[indice][0]} Notas: {lista[indice][1][0]},{lista[indice][1][1]}')
-
+indice = 0
+while indice != 999:
+	indice = int(input('Quer ver as notas de qual aluno?: '))
+	if indice in range(len(lista)):
+		print(f'Nome: {lista[indice][0]} Notas: {lista[indice][1][0]},{lista[indice][1][1]}')
+	elif indice<999:
+		print('não tem esse aluno na lista')
