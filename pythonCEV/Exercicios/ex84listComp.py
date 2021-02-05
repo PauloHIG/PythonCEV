@@ -23,9 +23,7 @@ def RecPes(i):
 
 i=1
 while True:
-	nome = input(f'Nome da {i}ª pessoa: ')
-	peso = RecPes(i)
-	pessoas.append([nome,peso])#pondo entre chaves, posso dar append de uma lista dentro de outra lista
+	pessoas.append([input(f'Nome da {i}ª pessoa: '),RecPes(i)])#pondo entre chaves, posso dar append de uma lista dentro de outra lista
 	cont = Continuar()
 	if cont.lower() =='n':
 		break
@@ -46,7 +44,7 @@ for pessoa in pessoas:
 		else:
 			print('.',end='\n')
 	i+=1
-print(i)
+
 #aqui tudo se repete com uma pequena diferença
 mais = pessoas [0][1]
 for pessoa in pessoas:
