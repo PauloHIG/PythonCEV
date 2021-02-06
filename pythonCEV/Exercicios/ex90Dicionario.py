@@ -25,8 +25,10 @@ def deciCont():
 aluno = {}
 aluno['Nome'] = input('Nome do aluno: ')
 aluno['Nota'] = [RecNot(1),RecNot(2)]
-if mean(aluno['Nota'])>=6:
+if mean(aluno['Nota'])>6:
 	sit = 'aprovado'
+elif mean(aluno['Nota'])>=5:
+	sit = 'recuperação'
 else:
 	sit = 'reprovado'
 print(f'Nome: {aluno["Nome"]} notas: {aluno["Nota"][0]}, {aluno["Nota"][1]} situação:{sit}')
