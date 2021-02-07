@@ -25,6 +25,7 @@ def recIdade(i):
 			continue
 		if idade <0:
 			print('Digite uma idade válida')
+			continue
 		break
 		idade = idade.upper()
 	return idade
