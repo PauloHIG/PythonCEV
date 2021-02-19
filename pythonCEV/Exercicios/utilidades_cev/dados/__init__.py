@@ -17,8 +17,11 @@ def ler_int():
 	while True:
 		try:
 			i = int(input(''))
-		except:
-			print('Ocorreu um erro, tente novamente')
+		except(ValueError,TypeError):
+			print('Digite um número inteiro válido')
+			continue
+		except(KeyboardInterrupt):
+			print('Entrada interrompida')
 			continue
 		break
 	return i
@@ -26,8 +29,11 @@ def ler_float():
 	while True:
 		try:
 			i = float(input(''))
-		except:
-			print('Ocorreu um erro, tente novamente')
+		except(ValueError,TypeError):
+			print('Digite um número real válido')
+			continue
+		except(KeyboardInterrupt):
+			print('Entrada interrompida')
 			continue
 		break
 	return i
