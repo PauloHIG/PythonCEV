@@ -1,6 +1,6 @@
 #115 primeiro passo, criar um menu usando modularização
-from ex115modulo import *
-from ex115modulo.lerdados import *
+from ex115modulo import *#importa as funções de menu e cabeçalho
+from ex115modulo.lerdados import *#biblioteca que meche com arquivos txt, ela não só lê como permite que sejam inserido dados nos arquivos
 from validados import recNome,recIdade#validados é a biblioteca que valida diversos tipos de dados, foi feita para estudar mas pode vir a ser bem util pra outras coisas
 from time import sleep
 opc=-1
