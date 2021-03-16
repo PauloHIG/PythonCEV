@@ -1,2 +1,3 @@
 from playsound import playsound
-playsound('ex21musica.mp3')
+
+playsound("ex21musica.mp3")
