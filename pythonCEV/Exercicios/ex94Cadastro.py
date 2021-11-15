@@ -6,7 +6,7 @@ C) Uma lista com as mulheres
 D) Uma lista de pessoas com idade acima da média"""
 
 # tem uma versão em que um dicionario recebe as listas e não o contrário, chamada apenas de Cadastro.py
-# a primeira coisa que fiz foi esse monte de funções pra não travar o programa caso algo errado seja digitado
+# a primeira coisa que foram essas funções pra não travar o programa caso algo errado seja digitado
 def recSex(i):
     while True:
         sex = input(f"Digite o sexo da pessoa {i} (M/F)")
@@ -41,7 +41,7 @@ def deciCont():
             continue
         break
     return deci
-
+#é bom lembrar que se eu sempre precisar usar funcões como essas acima, o ideal é criar uma biblioteca
 
 def recNome(i):
     while True:
